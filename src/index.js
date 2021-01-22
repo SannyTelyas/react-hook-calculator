@@ -93,6 +93,7 @@ const App = () => {
   };
 
   return (
+    
     <div
       style={{
         width: "50%",
@@ -164,6 +165,9 @@ const App = () => {
           =
         </Button>
       </FlexContainer>
+
+      <div> {new Date().getFullYear()} </div>
+      
     </div>
   );
 };
